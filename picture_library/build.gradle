@@ -42,7 +42,7 @@ dependencies {
 
 //gradlew bintrayUpload
 apply from: '../buildsystem/setupPublishExtension.gradle'
-group = "com.yueban" // 一般为包名
+group = "com.syf" // 一般为包名
 
 bintray {
     pkg {

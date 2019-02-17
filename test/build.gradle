@@ -22,9 +22,9 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
-//    compile project(':picture_library')
-    compile 'com.yueban:picture_library:2.3.11'
-
+    compile project(':picture_library')
+//    compile 'com.yueban:picture_library:2.3.11'
+//    compile 'com.syf:picture_library:1.0.0'
     compile "com.android.support:appcompat-v7:${cfgs.androidSupportVersion}"
     compile 'com.android.support.constraint:constraint-layout:1.1.3'
 }

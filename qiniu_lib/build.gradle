@@ -37,7 +37,7 @@ dependencies {
 
 //gradlew bintrayUpload
 apply from: '../buildsystem/setupPublishExtension.gradle'
-group = "com.yueban.PictureSelector"
+group = "com.syf.PictureSelector"
 
 bintray {
     pkg {

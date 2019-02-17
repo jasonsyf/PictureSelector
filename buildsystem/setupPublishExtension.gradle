@@ -1,7 +1,6 @@
-def siteUrl = 'https://github.com/yueban/PictureSelector'    // Git项目主页
-def gitUrl = 'https://github.com/yueban/PictureSelector.git' // Git仓库url
-
-version = "2.3.11"
+def siteUrl = 'https://github.com/jasonsyf/PictureSelector'    // Git项目主页
+def gitUrl = 'https://github.com/jasonsyf/PictureSelector.git' // Git仓库url
+version = "1.0.0"
 
 install {
     repositories.mavenInstaller {
@@ -20,9 +19,9 @@ install {
                 }
                 developers {
                     developer { // 开发者个人信息
-                        id 'yueban'    // 可以写昵称
-                        name 'yueban'
-                        email 'fbzhh007@gmail.com'
+                        id 'syf'    // 可以写昵称
+                        name 'syf'
+                        email 'jasonsunyf@gmail.com'
                     }
                 }
                 scm {
@@ -62,8 +61,8 @@ bintray {
     key = properties.getProperty("bintray.apikey")
     configurations = ['archives']
     pkg {
-        userOrg = "yueban"//bintray用户名
-        repo = "maven"         // 发布到Maven库
+        userOrg = "callmedashen"//bintray用户名
+        repo = "PictureSelecter"         // 发布到Maven库
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
